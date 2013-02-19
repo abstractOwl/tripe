@@ -11,12 +11,12 @@ This data structure is a combination of a Trie and a binary minHeap, which we wi
 	* **Search**: For given prefix, search through tripe and output all name-grade pairs with given prefix in name.
 	* **Find Min**: Should output minimum grade entry. Assume *NO* duplicated grades.
 * **Function prototypes**:
-```cpp
-void initialize (string filename) // initialize tripe
-void insert (string name, int grade) // insert pair into tripe
-void search (string prefix) // print list of entries matching prefix
-void findMin() // print minimum grade pair
-```
+
+	void initialize (string filename) // initialize tripe
+	void insert (string name, int grade) // insert pair into tripe
+	void search (string prefix) // print list of entries matching prefix
+	void findMin() // print minimum grade pair
+
 * **Additional contraints/details**:
 	* Assume no duplicate grades
 	* Use any data structure to implement Trie (e.g. Array, Tree-LL, etc)
@@ -32,5 +32,5 @@ void findMin() // print minimum grade pair
 ## Extra Credit:
 Implement `deleteMin()`: Delete the minimum element from the heap and corresponding name from Trie. Should be careful not to delete characters that are part of other names.
 
-**Prototype**:
+### Prototype:
 `void deleteMin()`
