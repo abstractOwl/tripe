@@ -45,8 +45,8 @@ void findMin()
 
 ## Extra Credit:
 
-Implement `deleteMin()`: Delete the minimum element from the heap and corresponding name from Trie. Should be careful not to delete characters that are part of other names.
+### Implement `deleteMin()`:
 
-### Prototype:
-
-`void deleteMin()`
+* Delete the minimum element from the heap and corresponding name from Trie.
+* Should be careful not to delete characters that are part of other names.
+* Function prototype: `void deleteMin()`
