@@ -17,10 +17,17 @@ This data structure is a combination of a Trie and a binary minHeap, which we wi
 * **Function prototypes**:
 
 ```cpp
-void initialize (string filename) // initialize tripe
-void insert (string name, int grade) // insert pair into tripe
-void search (string prefix) // print list of entries matching prefix
-void findMin() // print minimum grade pair
+// initialize tripe
+void initialize (string filename)
+
+// insert pair into tripe
+void insert (string name, int grade)
+
+// print list of entries matching prefix
+void search (string prefix)
+
+// print minimum grade pair
+void findMin()
 ```
 
 * **Additional contraints/details**:
