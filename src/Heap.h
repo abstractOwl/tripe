@@ -1,3 +1,6 @@
+#ifndef HEAP_H
+#define HEAP_H
+
 #include <string>
 
 using namespace std;
@@ -13,7 +16,7 @@ class Heap
 {
 public:
 	Heap();
-	void		add(int grade, string name);
+	HeapNode*	add(int grade, string name);
 	HeapNode*	min();
 	HeapNode*	remove();
 
@@ -28,3 +31,6 @@ private:
 	void	upHeap(int index);
 	void	swap(int first, int second);
 };
+
+#endif
+
